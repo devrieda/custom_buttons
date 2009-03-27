@@ -1,0 +1,9 @@
+/* clear floats */
+form p {
+  zoom: 1;
+  display: block;
+}
+
+/** =SHARED BUTTON STYLES
+----------------------------------------------- */
+body button.button span { top: 0; }

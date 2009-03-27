@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 10px 30px;
+}
+code {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #666;
+  font-family: font-family: Courier, "Courier New", monospace;
+  font-size: 12px;
+}
+/* clear floats */
+form p:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+
+
+/** =SHARED BUTTON STYLES
+----------------------------------------------- */
+.button {
+  float: left; 
+  margin: 0;
+  border: 0; 
+  padding: 0 12px 0 0; 
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+}
+button:focus::-moz-focus-inner { 
+  border-color: transparent !important; 
+} 
+button::-moz-focus-inner { 
+  border: none;
+  padding: 0;
+}
+
+.button span {
+  float: left;
+  position: relative;
+  display: block; 
+  padding: 0 0 0 11px; 
+}
+button.button {
+  width: auto;
+  overflow: visible;
+  padding-right: 10px;
+}
+
+
+/* primary */
+.primary {
+  font-weight: bold;
+  color: #000;
+}
+
+/* hover */
+.button:hover {
+  background-position: right -26px;
+}
+.button:hover span {
+  background-position: 0 -26px;
+}
+
+/* active */
+.button:active {
+  background-position: right -52px;
+}
+.button:active span {
+  background-position: 0 -52px;
+}
+
+/* disabled */
+.disabled, 
+.disabled:active  {
+  background-position: right -78px !important;
+  color: #bbb;
+  cursor: default;
+}
+.disabled span, 
+.disabled:active span {
+  background-position: 0 -78px !important;
+}
+
+
+/** =ROUND BUTTON STYLES
+----------------------------------------------- */
+.round_button {
+  height: 25px;
+  background: url("../images/round.png") right 0 no-repeat; 
+}
+.round_button span { 
+  height: 25px;
+  line-height: 24px;
+  background:url("../images/round.png") left 0 no-repeat;
+}
+
+/** =RECT BUTTON STYLES
+----------------------------------------------- */
+.rect_button {
+  height: 20px;
+  background: url("../images/rect.png") right 0 no-repeat; 
+}
+.rect_button span { 
+  height: 20px;
+  line-height: 20px;
+  background:url("../images/rect.png") left 0 no-repeat;
+}
