@@ -6,4 +6,10 @@ form p {
 
 /** =SHARED BUTTON STYLES
 ----------------------------------------------- */
-body button.button span { top: 0; }
+button { 
+  width: auto; 
+  overflow: visible; 
+}
+button span { 
+  margin-top: 1px; 
+}

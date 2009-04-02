@@ -4,11 +4,9 @@ This project contains XHTML/CSS to change the visual style of both the <button> 
 
 There are two different button examples -- a round button, and a more rectangular button. 
 
-Tested in ie6, ie7, Safari, and Firefox. 
+Tested in IE6, IE7, IE8, Safari, Firefox, and Chrome. 
 
-Known rendering bug in Chrome at the moment. I'm not sure the best solution yet since both Chrome and Safari use the same rendering engine. I'm guessing I might have two different versions of Webkit between the browsers. 
-
-A lot of what I've done is based on previous work demoed in these articles, and their associated comments: 
+A lot of what I've done is based on previous work demoed in these articles, and their comments: 
 
 http://www.oscaralexander.com/tutorials/how-to-make-sexy-buttons-with-css.html
 http://stopdesign.com/archive/2009/02/04/recreating-the-button.html

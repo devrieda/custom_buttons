@@ -4,7 +4,6 @@ body {
   padding: 10px 30px;
 }
 code {
-  float: left;
   margin-top: 5px;
   margin-left: 10px;
   color: #666;
@@ -20,14 +19,13 @@ form p:after {
   visibility: hidden;
 }
 
-
-/** =SHARED BUTTON STYLES
+/** =COMMON BUTTON STYLES
 ----------------------------------------------- */
-.button {
-  float: left; 
+.button { 
+  float: left;
   margin: 0;
   border: 0; 
-  padding: 0 12px 0 0; 
+  padding: 0 14px 0 0; 
   font-family: Arial, Verdana, sans-serif;
   font-size: 12px;
   color: #333;
@@ -35,6 +33,12 @@ form p:after {
   text-decoration: none;
   text-align: center;
   outline: none;
+}
+.button span { 
+  position: relative; 
+  display: block; 
+  white-space: nowrap; 
+  padding: 0 0 0 14px; 
 }
 button:focus::-moz-focus-inner { 
   border-color: transparent !important; 
@@ -44,74 +48,79 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-.button span {
-  float: left;
-  position: relative;
-  display: block; 
-  padding: 0 0 0 11px; 
+a.button:link, 
+a.button:visited {
+  color: #333;
 }
-button.button {
-  width: auto;
-  overflow: visible;
-  padding-right: 10px;
+a.button:link span, 
+a.button:visited span {
+  float: left;
+  display: inline;
 }
 
 
 /* primary */
-.primary {
+button.primary, 
+a:link.primary, 
+a:visited.primary {
   font-weight: bold;
   color: #000;
 }
 
-/* hover */
-.button:hover {
-  background-position: right -26px;
-}
-.button:hover span {
-  background-position: 0 -26px;
-}
-
-/* active */
-.button:active {
-  background-position: right -52px;
-}
-.button:active span {
-  background-position: 0 -52px;
-}
-
 /* disabled */
-.disabled, 
-.disabled:active  {
-  background-position: right -78px !important;
-  color: #bbb;
+button.disabled, 
+a:link.disabled, 
+a:visited.disabled {
+  color: #aaa;
   cursor: default;
 }
-.disabled span, 
-.disabled:active span {
-  background-position: 0 -78px !important;
-}
-
 
 /** =ROUND BUTTON STYLES
 ----------------------------------------------- */
-.round_button {
-  height: 25px;
-  background: url("../images/round.png") right 0 no-repeat; 
+.round_button,
+.disabled.round_button:hover { 
+  background: url("../images/round_normal.png") right no-repeat; 
 }
-.round_button span { 
-  height: 25px;
-  line-height: 24px;
-  background:url("../images/round.png") left 0 no-repeat;
+.round_button span,
+.disabled.round_button:hover span { 
+  height: 25px; 
+  line-height: 25px;
+  background: url("../images/round_normal.png") left no-repeat;
+}
+.round_button:hover {
+	background: url("../images/round_hover.png") right no-repeat; 
+}
+.round_button:hover span {
+	background: url("../images/round_hover.png") left no-repeat; 
+}
+.round_button:active {
+	background: url("../images/round_active.png") right no-repeat; 
+}
+.round_button:active span {
+	background: url("../images/round_active.png") left no-repeat; 
 }
 
 /** =RECT BUTTON STYLES
 ----------------------------------------------- */
-.rect_button {
-  height: 20px;
-  background: url("../images/rect.png") right 0 no-repeat; 
+.rect_button, 
+.disabled.rect_button:hover { 
+  background: url("../images/rect_normal.png") right no-repeat; 
 }
-.rect_button span { 
-  height: 20px;
+.rect_button span, 
+.disabled.rect_button:hover span { 
+  height: 20px; 
   line-height: 20px;
-  background:url("../images/rect.png") left 0 no-repeat;
+  background: url("../images/rect_normal.png") left no-repeat;
+}
+.rect_button:hover {
+	background: url("../images/rect_hover.png") right no-repeat; 
+}
+.rect_button:hover span {
+	background: url("../images/rect_hover.png") left no-repeat; 
+}
+.rect_button:active {
+	background: url("../images/rect_active.png") right no-repeat; 
+}
+.rect_button:active span {
+	background: url("../images/rect_active.png") left no-repeat; 
 }
