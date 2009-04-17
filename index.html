@@ -6,12 +6,14 @@
   <title>Button Test</title>
 
   <link href="stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+
   <!--[if lte IE 7]>
   <link href="stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css" />
   <![endif]-->
 </head>
 <body>
 
+  <h2>Button tag</h2>
   <form action="#">
     <p>
       <button type="submit" class="button round_button"><span>Submit</span></button>
@@ -40,6 +42,7 @@
     </p>
   </form>
 
+  <h2>Anchor tag</h2>
   <form action="#">
     <p>
       <a href="#" class="button round_button"><span>Submit</span></a>
@@ -64,6 +67,40 @@
     <p>
       <a href="#" class="button rect_button disabled"><span>Submit</span></a>
       <code>&lt;a class=&quot;disabled&quot;&gt;</code>
+    </p>
+  </form>
+
+  <h2>With Icons</h2>
+  <form action="#">
+    <p>
+      <button type="submit" class="button round_button icon_button"><span><img src="images/icons/add.gif" /> Add Record</span></button>
+      <code>&lt;button&gt;</code>
+    </p>
+    <p>
+      <button type="submit" class="button round_button icon_button"><span><img src="images/icons/edit.gif" /> Edit Record</span></button>
+      <code>&lt;button&gt;</code>
+    </p>
+    <p>
+      <button type="submit" class="button round_button icon_button"><span><img src="images/icons/delete.gif" /> Delete Record</span></button>
+      <code>&lt;button&gt;</code>
+    </p>
+
+    <p>
+      <a href="#" class="button rect_button icon_button"><span><img src="images/icons/add.gif" /> Add</span></a>
+      <code>&lt;a&gt;</code>
+    </p>
+    <p>
+      <a href="#" class="button rect_button icon_button"><span><img src="images/icons/edit.gif" /> Edit</span></a>
+      <code>&lt;a&gt;</code>
+    </p>
+    <p>
+      <a href="#" class="button rect_button icon_button"><span><img src="images/icons/delete.gif" /> Delete</span></a>
+      <code>&lt;a&gt;</code>
+    </p>
+
+    <p>
+      <button type="submit" class="button rect_button icon_button disabled"><span><img src="images/icons/add.gif" /> Disabled...</span></button>
+      <code>&lt;button class=&quot;disabled&quot;&gt;</code>
     </p>
   </form>
 </body>

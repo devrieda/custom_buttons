@@ -1,4 +1,4 @@
-/* clear floats */
+/* styles for demo - not needed for actual button styles */
 form p {
   zoom: 1;
   display: block;
@@ -6,14 +6,18 @@ form p {
 
 /** =SHARED BUTTON STYLES
 ----------------------------------------------- */
-button { 
+button.button { 
   position: relative;
   top: -2px;
   width: auto; 
   overflow: visible; 
 }
-button span { 
+button.button span { 
   position: relative;
   top: 1px;
   margin-top: 1px; 
+}
+button.button img, 
+a.button img {
+  margin-top: 1px;
 }
