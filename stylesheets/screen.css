@@ -57,6 +57,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
+
 a.button:link, 
 a.button:visited {
   color: #333;
@@ -66,8 +67,9 @@ a.button:visited span {
   float: left;
   display: inline;
 }
-.icon_button span {
-  padding-left: 9px;
+a.icon_button span, 
+button.icon_button span {
+  padding-left: 8px !important;
 }
 .button img {
   border: 0;
@@ -120,7 +122,9 @@ a.disabled img {
 }
 .round_button:active {
 	background: url("../images/round_active.png") right no-repeat; 
+  -ms-background-position-y: 1px; /* ie8 hack */  
 }
+
 .round_button:active span {
 	background: url("../images/round_active.png") left no-repeat; 
 }
@@ -129,6 +133,7 @@ a.disabled img {
 ----------------------------------------------- */
 .rect_button, 
 .disabled.rect_button:hover { 
+  padding-right: 10px;
   background: url("../images/rect_normal.png") right no-repeat; 
 }
 .rect_button span, 
@@ -136,6 +141,7 @@ a.disabled img {
   height: 14px; 
   line-height: 14px;
   padding-top: 3px;
+  padding-left: 10px;
   padding-bottom: 3px;
   background: url("../images/rect_normal.png") left no-repeat;
 }
@@ -147,6 +153,7 @@ a.disabled img {
 }
 .rect_button:active {
 	background: url("../images/rect_active.png") right no-repeat; 
+  -ms-background-position-y: 1px; /* ie8 hack */  
 }
 .rect_button:active span {
 	background: url("../images/rect_active.png") left no-repeat; 
