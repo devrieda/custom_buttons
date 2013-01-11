@@ -4,14 +4,15 @@ While browser default buttons are perfectly fine in many instances, there are
 times you want to give your buttons a little more class. Styling buttons to 
 behave predictably in all browsers is rather tricky. 
 
-This project contains XHTML/CSS to change the visual style of both the <button> 
-and <a> tag using a *button* class. It aims to use semantically correct markup and 
-maintain the various button states (in supported browsers).
+This project contains XHTML/CSS to change the visual style of both the 
+`<button>` and `<a>` tag using a *button* class. It aims to use semantically 
+correct markup and maintain the various button states (in supported browsers).
 
 
 ## Examples
 
-There are two different button examples -- a round button, and a more rectangular button. 
+There are two different button examples -- a round button, and a more 
+rectangular button. 
 
 Tested in IE6, IE7, IE8, Safari, Firefox, and Chrome. 
 
