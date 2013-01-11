@@ -47,10 +47,10 @@ Add the *disabled* class to make a button faded:
 A lot of what I've done is based on previous work demoed in these articles, and 
 their comments: 
 
-[How to Make Sexy Buttons with CSS](http://www.oscaralexander.com/tutorials/how-to-make-sexy-buttons-with-css.html)
-[Recreating the Button](http://stopdesign.com/archive/2009/02/04/recreating-the-button.html)
-[Rediscovering the Button Element](http://particletree.com/features/rediscovering-the-button-element/)
-[Syting the Button Element with Sliding Doors](http://www.filamentgroup.com/lab/styling_the_button_element_with_sliding_doors/)
+* [How to Make Sexy Buttons with CSS](http://www.oscaralexander.com/tutorials/how-to-make-sexy-buttons-with-css.html)
+* [Recreating the Button](http://stopdesign.com/archive/2009/02/04/recreating-the-button.html)
+* [Rediscovering the Button Element](http://particletree.com/features/rediscovering-the-button-element/)
+* [Syting the Button Element with Sliding Doors](http://www.filamentgroup.com/lab/styling_the_button_element_with_sliding_doors/)
 
 
 ## LICENSE
