@@ -1,0 +1,29 @@
+/* styles for demo - not needed for actual button styles */
+body {
+  margin: 0;
+  padding: 10px 30px;
+  font-family: "Helvetica Neue", "arial", sanserif;
+}
+h2 {
+  font-size: 120%;
+  margin-bottom: 3px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 3px;
+}
+code {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #666;
+  font-family: Courier, "Courier New", monospace;
+  font-size: 12px;
+}
+/* clear floats */
+form p:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+
