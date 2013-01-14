@@ -71,61 +71,58 @@ a.disabled img {
   opacity: 0.5;
 }
 
-/** =ROUND BUTTON STYLES
+/** =LARGE BUTTON STYLES
 ----------------------------------------------- */
-.round_button,
-.disabled.round_button:hover { 
-  background: url("../images/round_normal.png") right no-repeat; 
+.large_button,
+.disabled.large_button:hover { 
+  background: url("../images/large_normal.png") right no-repeat;
 }
-.round_button span,
-.disabled.round_button:hover span { 
+.large_button span,
+.disabled.large_button:hover span { 
   height: 15px; 
   line-height: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background: url("../images/large_normal.png") left no-repeat;
+  font-size: 15px;
+}
+.large_button:hover {
+  background: url("../images/large_hover.png") right no-repeat; 
+}
+.large_button:hover span {
+  background: url("../images/large_hover.png") left no-repeat;
+}
+.large_button:active {
+  background: url("../images/large_active.png") right no-repeat; 
+}
+.large_button:active span {
+  background: url("../images/large_active.png") left no-repeat; 
+}
+
+/** =SMALL BUTTON STYLES
+----------------------------------------------- */
+.small_button,
+.disabled.small_button:hover { 
+  background: url("../images/small_normal.png") right no-repeat; 
+}
+.small_button span,
+.disabled.small_button:hover span { 
+  height: 11px; 
+  line-height: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background: url("../images/round_normal.png") left no-repeat;
+  background: url("../images/small_normal.png") left no-repeat;
+  font-size: 11px;
 }
-.round_button:hover {
-	background: url("../images/round_hover.png") right no-repeat; 
+.small_button:hover {
+  background: url("../images/small_hover.png") right no-repeat; 
 }
-.round_button:hover span {
-	background: url("../images/round_hover.png") left no-repeat; 
+.small_button:hover span {
+  background: url("../images/small_hover.png") left no-repeat; 
 }
-.round_button:active {
-	background: url("../images/round_active.png") right no-repeat; 
-  -ms-background-position-y: 1px; /* ie8 hack */  
+.small_button:active {
+  background: url("../images/small_active.png") right no-repeat; 
 }
-
-.round_button:active span {
-	background: url("../images/round_active.png") left no-repeat; 
-}
-
-/** =RECT BUTTON STYLES
------------------------------------------------ */
-.rect_button, 
-.disabled.rect_button:hover { 
-  padding-right: 10px;
-  background: url("../images/rect_normal.png") right no-repeat; 
-}
-.rect_button span, 
-.disabled.rect_button:hover span { 
-  height: 14px; 
-  line-height: 14px;
-  padding-top: 3px;
-  padding-left: 10px;
-  padding-bottom: 3px;
-  background: url("../images/rect_normal.png") left no-repeat;
-}
-.rect_button:hover {
-	background: url("../images/rect_hover.png") right no-repeat; 
-}
-.rect_button:hover span {
-	background: url("../images/rect_hover.png") left no-repeat; 
-}
-.rect_button:active {
-	background: url("../images/rect_active.png") right no-repeat; 
-  -ms-background-position-y: 1px; /* ie8 hack */  
-}
-.rect_button:active span {
-	background: url("../images/rect_active.png") left no-repeat; 
+.small_button:active span {
+  background: url("../images/small_active.png") left no-repeat; 
 }
