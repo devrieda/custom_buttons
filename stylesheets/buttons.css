@@ -39,7 +39,9 @@ a.button:visited span {
   display: inline;
 }
 a.icon_button span, 
-button.icon_button span {
+button.icon_button span, 
+a.disabled.icon_button:hover span, 
+button.disabled.icon_button:hover span {
   padding-left: 8px !important;
 }
 .button img {
